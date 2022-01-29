@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="Fabrikam">
+<head>
+    <meta charset="utf-8" />
+    <title>Fabrikam</title>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/site.css" rel="stylesheet">
+    <script src="scripts/bootstrap.min.js"></script>
+ 
+</head>
+<body ng-controller="RetailerIndexController">
+    <h1 style="color:orangered;font-size:24px">Fabrikam</h1>
+    <hr />
+    <nav>
+        <a href="/home/">Home</a> |
+        <a href="/products/">Products</a> |
+        <a href="/services/">Services</a> |
+        <a href="/pressReleases/">Press Releases</a> |
+        <a href="/aboutUs">About Us</a>
+    </nav>
+
+
+    <div ng-view></div>
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Getting started</h2>
+            <p>
+                Fabrikam is a multinational company has their 24 Offices all over world. We build and host Information Management Solutions in web.
+            </p>
+            <p><a class="btn btn-default" href="https://www.facebook.com/transflowerLearning">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>About</h2>
+            <p>And we even host internet public web site for the potential customers to know about their products and services provided.</p>
+            <p>They required to build and host intranet application for all employees to access Human Resource, Accounting, Project Management related information.</p>
+            <p><a class="btn btn-default" href="https://www.facebook.com/transflowerLearning">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Business Analytics</h2>
+            <p>Fabrikam has public  Cloud subscription to use it as Infrastructure as a Service ( I-a-a-S) and Platform As A Service</p>
+            <p><a class="btn btn-default" href="https://www.facebook.com/transflowerLearning">Learn more &raquo;</a></p>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
+
+    
+
+ 
